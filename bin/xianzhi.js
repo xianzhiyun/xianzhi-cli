@@ -12,6 +12,6 @@ program
   .command('delete', '删除源 xianzhi list')
   .command('list', '展示源列表 xianzhi list')
   .command('init', '从源初始化项目 xianzhi init <模板名> 项目名')
-  .command('create-vue', '快速构建新vue项目 xianzhi create-vue <项目名>')
+  .command('create', '快速构建新vue项目 xianzhi create <项目名>')
 
 program.parse(process.argv)

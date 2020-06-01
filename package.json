@@ -5,10 +5,10 @@
     "xianzhi-delete": "bin/xianzhi-delete.js",
     "xianzhi-list": "bin/xianzhi-list.js",
     "xianzhi-init": "bin/xianzhi-init.js",
-    "xianzhi-create-vue": "bin/xianzhi-create-vue.js"
+    "xianzhi-create": "bin/xianzhi.js"
   },
   "name": "xianzhi-cli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {

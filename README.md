@@ -12,7 +12,7 @@
     delete    删除你的模板，只要给出list中的模板名称
     list      查看你的模板列表
     init      通过命令的模板初始化项目  xianzhi init <模板名称> <项目名称>
-    create-vue    通过命令直接创建vue项目  xianzhi create-vue <项目名称>
+    create    通过命令直接创建vue项目  xianzhi create <项目名称>
 
   Options:
 
