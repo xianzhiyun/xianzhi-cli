@@ -90,7 +90,7 @@ function go() {
       , {
         name: 'projectAuthor',
         message: '项目的创建人',
-        default: `minchao`
+        default: `xianzhiyun`
       }
     ]).then(answers => {
       return {
