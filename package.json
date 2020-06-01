@@ -1,20 +1,20 @@
 {
   "bin": {
-    "mcf": "bin/mcf",
-    "mcf-add": "bin/mcf-add",
-    "mcf-delete": "bin/mcf-delete",
-    "mcf-list": "bin/mcf-list",
-    "mcf-init": "bin/mcf-init",
-    "mcf-create-vue": "bin/mcf-create-vue"
+    "xianzhi": "bin/xianzhi",
+    "xianzhi-add": "bin/xianzhi-add",
+    "xianzhi-delete": "bin/xianzhi-delete.js",
+    "xianzhi-list": "bin/xianzhi-list",
+    "xianzhi-init": "bin/xianzhi-init",
+    "xianzhi-create-vue": "bin/xianzhi-create-vue"
   },
-  "name": "mcf-cli",
+  "name": "xianzhi-cli",
   "version": "1.0.9",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "minchao",
+  "author": "zhangle",
   "license": "MIT",
   "dependencies": {
     "commander": "^2.19.0",

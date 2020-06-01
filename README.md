@@ -1,18 +1,11 @@
-#   mcf-cli
+#   xianzhi-cli
 
-#   en
+#   安装
 
-A simple CLI for creating your project.
+    npm install xianzhi-cli -g
 
-#   Installation
-
-    npm install mcf-cli -g
-
-#   Usage
-
-Open your terminal and type mcf or mcf -h , you'll see the help infomation below:
-
-  Usage: mcf <command>
+#   使用
+  Usage: xianzhi <command>
 
 
   Commands:
@@ -39,13 +32,10 @@ MIT.
 
 #   全局安装
 
-    npm install mcf-cli -g
+    npm install xianzhi-cli -g
 
 #   使用
-
-打开你的cmd 输入mcf或者mcf -h 查看你可以使用的命令行
-
-  Usage: mcf "commands"
+  Usage: xianzhi "commands"
 
 
   Commands:
@@ -53,8 +43,8 @@ MIT.
     add       给你的脚手架安装一个模板 {模板名称，地址(github.com是默认的)}
     delete    删除你的模板，只要给出list中的模板名称
     list      查看你的模板列表
-    init      通过命令的模板初始化项目  mcf init <模板名称> <项目名称>
-    create-vue    通过命令直接创建vue项目  mcf create-vue <项目名称>
+    init      通过命令的模板初始化项目  xianzhi init <模板名称> <项目名称>
+    create-vue    通过命令直接创建vue项目  xianzhi create-vue <项目名称>
 
   Options:
 
@@ -62,5 +52,8 @@ MIT.
     -V, --version  output the version number
 
 
-#   License
-MIT.
+# 参考资料
+
+感谢mcf-cli作者
+在当前项目上面直接改造
+[mcf-cli](https://github.com/minchao920917/mcf-cli)
