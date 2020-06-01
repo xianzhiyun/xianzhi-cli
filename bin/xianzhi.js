@@ -8,7 +8,7 @@ console.log('*******************************************************************
 program
   .version(require('../package').version)
   .usage('<command> [options]')
-  .command('add', '添加新的源 xianzhi add')
+  .command('add', '添加新的源 xianzhi add {模板名称，地址(github.com是默认的)}')
   .command('delete', '删除源 xianzhi list')
   .command('list', '展示源列表 xianzhi list')
   .command('init', '从源初始化项目 xianzhi init <模板名> 项目名')
