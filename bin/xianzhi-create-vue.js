@@ -18,7 +18,7 @@ const chalk = require('chalk')
 const logSymbols = require('log-symbols')
 
 program.usage('<project-name>')
-  .option('-r, --repository [repository]', 'assign to repository', 'minchao920917/app-vue-template')
+  .option('-r, --repository [repository]', 'assign to repository', 'xianzhiyun/vue-template')
   .parse(process.argv);
 
 let projectName = program.args[0];
