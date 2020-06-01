@@ -1,43 +1,11 @@
 #   xianzhi-cli
 
-#   安装
-
-    npm install xianzhi-cli -g
-
-#   使用
-  Usage: xianzhi <command>
-
-
-  Commands:
-
-    add       Add a new template
-    delete    Delete a template
-    list      List all the templates
-    init      Copy a project from template
-    create-vue    fastly create A vue project
- 
-  Options:
-
-    -h, --help     output usage information
-    -V, --version  output the version number
-Note that if you are using MacOS, sudo was required while using commands add and delete.
-
-#   License
-MIT.
-
-
-#   zh-cn
-
-一个简单你的脚手架-为你的急速命令行构建你的项目
-
 #   全局安装
 
     npm install xianzhi-cli -g
-
 #   使用
+
   Usage: xianzhi "commands"
-
-
   Commands:
 
     add       给你的脚手架安装一个模板 {模板名称，地址(github.com是默认的)}
