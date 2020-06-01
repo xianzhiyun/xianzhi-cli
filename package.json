@@ -1,11 +1,11 @@
 {
   "bin": {
-    "xianzhi": "bin/xianzhi",
-    "xianzhi-add": "bin/xianzhi-add",
+    "xianzhi": "bin/xianzhi.js",
+    "xianzhi-add": "bin/xianzhi-add.js",
     "xianzhi-delete": "bin/xianzhi-delete.js",
-    "xianzhi-list": "bin/xianzhi-list",
-    "xianzhi-init": "bin/xianzhi-init",
-    "xianzhi-create-vue": "bin/xianzhi-create-vue"
+    "xianzhi-list": "bin/xianzhi-list.js",
+    "xianzhi-init": "bin/xianzhi-init.js",
+    "xianzhi-create-vue": "bin/xianzhi-create-vue.js"
   },
   "name": "xianzhi-cli",
   "version": "0.0.2",
