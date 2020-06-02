@@ -14,7 +14,7 @@ let printQrcode = () => {
 console.log('**********************************************************************');
 console.log('*      '+chalk.green('扫描她，带走我')+'                   *');
 console.log('*      '+chalk.green('公众号：先知云')+'                   *');
-(async () => {
+;(async () => {
     let res = await printQrcode()
     console.log(res)
 })()
